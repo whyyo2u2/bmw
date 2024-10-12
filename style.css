@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.block{
+    width: 100%;
+    padding: 20px;
+    background: lightblue;
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background: blue;
+}
+
+
+.block{
+
+    display: flex;
+    /*justify-content: end-перемещение в конец род. блока*/
+    /* justify-content: end ; */
+    /* justify-content: start; */
+    justify-content: space-between;
+
+}
+
+
+
+
+/* mBlock */
+/* флекс лучше чем маргин */
+.mBlock{
+    width: 100%;
+    padding: 20px;
+    background: lightblue;
+    margin-top: 20px;
+    display: flex;
+}
+/* маргин не практична лучше флекс использовать */
+.mbox{
+    width: 300px;
+    height: 300px;
+    background: red;
+    margin-left: 120px;
+}
+/* mBlock */
+
+
+/* block1 */
+.block1{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1{
+    width: 250px;
+    height: 250px;
+    background: orange;
+    margin-left: 20px;
+    margin-top: 20px;    
+}
+/* block1 */
+
+
+
+
+/* block2 */
+.block2{
+    padding: 20px;
+    background: lightgoldenrodyellow;
+    display: flex;
+    justify-content: space-around;
+    /* простое решение */
+    align-items: center;
+}
+
+
+.boxlarge{
+    width: 250px;
+    height: 500px;
+    background: red;
+}
+
+.boxsmall{
+    width: 250px;
+    height: 200px;
+    background: yellow;
+}
+/* block2 */
+
